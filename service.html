@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="header text-white ">
+        <div class="row ps-5" >
+            <div class=" col-6 col-md-6 ps-8">
+              <img src="images/logo.png" class="logo" alt="">
+            </div>
+            <div class="col-md-6 col-6 pt-4 ps-4">
+              <nav id="header-nav" class="navbar navbar-expand-lg pt-5">
+                  <button id="navtogg" class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse pt-3" id="navbarTogglerDemo01">
+                      <ul class="navbar-nav ps-5">
+                          <li class="nav-item">
+                              <a class="nav-link  text-white" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link active text-white" href="service.html">Services</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-white" href="about.html">About</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-white" href="contact.html">Contact Us</a>
+                          </li>
+                      </ul>
+                  </div>
+              </nav>
+          </div>
+          
+    </header> 
+
+    <section class="services-section container py-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p id="Services">OUR SERVICES</p>
+            </div>
+        </div>
+
+        <div id="servicesCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100">
+                                <img src="images/portrait.png" class="card-img-top" alt="Portraits">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portraits</h5>
+                                    <p class="card-text">Capturing your best moments with stunning portraits that showcase your personality.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100">
+                                <img src="images/wedding.jpg" class="card-img-top" alt="Wedding">
+                                <div class="card-body">
+                                    <h5 class="card-title">Wedding</h5>
+                                    <p class="card-text">Documenting your special day with beautiful wedding photography that you'll cherish forever.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100">
+                                <img src="images/prwedding.png" class="card-img-top" alt="Pre-wedding">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pre-wedding</h5>
+                                    <p class="card-text">Creating romantic and memorable pre-wedding photos to celebrate your love story.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100">
+                                <img src="images/headshots.jpg" class="card-img-top" alt="Headshots">
+                                <div class="card-body">
+                                    <h5 class="card-title">Headshots</h5>
+                                    <p class="card-text">Professional headshots that present you in the best light, perfect for corporate profiles or personal branding.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100">
+                                <img src="images/maternity.jpg" class="card-img-top" alt="Maternity Shoot">
+                                <div class="card-body">
+                                    <h5 class="card-title">Maternity Shoot</h5>
+                                    <p class="card-text">Capturing the beauty and joy of your pregnancy with intimate and creative maternity photos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <footer id="footer" class=" text-white py-4 container-fluid">    
+        <div class="row">
+          <p class="text-center mt-3 text-white p2">"Photography is the story I fail to put into words." — Destin Sparks</p>
+  
+        </div>    
+        <div class="row pt-3" id="footer-row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <p class="mb-0">© 2024 Lagom Lights Photography. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <a href="https://www.facebook.com" target="_blank" class="text-white me-3 bg-light">
+                    <img src="images/facebook.png" alt="Facebook" style="width: 24px; height: 24px;">
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="text-white me-3 bg-light">
+                    <img src="images/instagram.png" alt="Instagram" style="width: 24px; height: 24px;">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="text-white me-3 bg-light">
+                    <img src="images/linkedIn.png" alt="LinkedIn" style="width: 24px; height: 24px;">
+                </a>
+            </div>
+        </div>  
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNsvrn+5HcrOpmYF4BgdQH5Qs5QCL6aS/NXTRKEuBZHCdch4noWeFYbDZ20f39a" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
